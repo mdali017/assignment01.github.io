@@ -95,8 +95,8 @@
 
 .my-plan-section-items {
     display: flex;
-    margin-left: 180px;
     margin-right: 180px;
+    padding: 40px 0px 40px 40px;
 
 }
 
@@ -113,6 +113,7 @@
     margin-left: -15px;
     text-align: center;
 }
+
 .my-plan-item p {
     color: #737272;
 }
@@ -120,4 +121,33 @@
 .my-plan-item img {
     width: 70px;
     height: 70px;
+}
+
+/* call now section */
+.call-now-section {
+    margin-left: 231px;
+    background-image: url('/images/watch.png');
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(24, 9, 4, 0) 100%);
+    width: 1140px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.call-now-section h3 {
+    margin-left: 64px;
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.call-now-section button {
+    width: 160px;
+    height: 64px;
+    margin-left: 64px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
 }
