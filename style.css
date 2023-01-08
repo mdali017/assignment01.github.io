@@ -211,3 +211,36 @@
     border: none;
     border-radius: 5px;
 }
+
+/* extra section */
+.extra-section {
+    display: flex;
+    background-color: #737272;
+    margin-bottom: 50px;
+}
+
+.extra-section img {
+    width: 456px;
+    height: 477px;
+}
+
+.extra-section-left {
+    margin-left: 250px;
+}
+
+.extra-section-left h3 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.extra-section-left button {
+    width: 230px;
+    height: 56px;
+    margin-top: 15px;
+    background: #FF5959;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
